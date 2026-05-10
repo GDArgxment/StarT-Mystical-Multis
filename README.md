@@ -9,5 +9,3 @@ just download the repo and drag the "kubejs" folder into the root instance folde
 
 <img width="416" height="204" alt="image" src="https://github.com/user-attachments/assets/18d39792-2d6b-47a5-ae0e-69beb11a92d7" />
 <img width="390" height="194" alt="image" src="https://github.com/user-attachments/assets/f65e7469-bd98-42e6-abb6-011c7f9b08bb" />
-
-# Lang is kinda bugged, pending to fix
