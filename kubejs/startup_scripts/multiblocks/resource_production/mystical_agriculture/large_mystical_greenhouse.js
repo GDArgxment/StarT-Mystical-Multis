@@ -41,6 +41,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             // Does someone knows what the hell this line does???????????
                 false);
 
+// Most of the previous comments apply on the same way here
     event.create('large_essence_burner', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('essence_burning')
