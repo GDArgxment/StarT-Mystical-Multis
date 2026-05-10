@@ -36,7 +36,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer(
             // What will be rendered above IO, Maintenance, Parallel, energy hatches when the multi forms
             'gtceu:block/casings/solid/machine_casing_clean_stainless_steel',
-            // What texture will use the controller face
+            // What texture the controller will use on the main face
             'gtceu:block/multiblock/gcym/large_extruder', 
             // Does someone knows what the hell this line does???????????
                 false);
