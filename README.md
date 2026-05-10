@@ -1,3 +1,7 @@
+# Before everything, how to install
+just download the repo and drag the "kubejs" folder into the root instance folder, for now it will rewritte the lang files, which are a buggy for now :/
+
+# Lore
 So quick summary, since currently star technology lacks of these multiblocks, i decided to add them by myself
 
 first, i wanted to add 3 tiers for the large mystical greenhouse, kinda like the fluid oil rig / large miners
