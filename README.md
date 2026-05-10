@@ -2,7 +2,7 @@ So quick summary, since currently star technology lacks of these multiblocks, i 
 
 first, i wanted to add 3 tiers for the large mystical greenhouse, kinda like the fluid oil rig / large miners
 
-Here the Elite, Advanced and Basic "LMG"
+Here is the Elite, Advanced and Basic "LMG"
 <img width="1225" height="363" alt="image" src="https://github.com/user-attachments/assets/52df86d2-df1c-4e26-9e0f-c88fe1a454ae" />
 
 But some problems with the elite one regarding how to call the tungsten steel robust casings have appeared
