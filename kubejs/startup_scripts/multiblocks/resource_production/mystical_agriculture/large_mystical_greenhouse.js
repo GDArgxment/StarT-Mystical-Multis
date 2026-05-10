@@ -1,9 +1,15 @@
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('large_mystical_greenhouse', 'multiblock')
+        // Can be rotated, but cannot face the sky or the floor
         .rotationState(RotationState.NON_Y_AXIS)
+        // Recipes is gonna execute during its work
         .recipeType('greenhouse_growing')
+        // Habilities
+            // TODO: change poc with non perfect oc, due to balancing 
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
+        // How the controller will look
         .appearanceBlock(() => Block.getBlock('gtceu:clean_machine_casing'))
+        // Pattern of the multiblock
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('HFFFH','HFKFH','HFFFH') 
             .aisle('FFFFF','FR RF','FFFFF')
@@ -14,6 +20,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 .where(' ', Predicates.any())
                 .where('R', Predicates.blocks('gtceu:stainless_steel_gearbox'))
                 .where('K', Predicates.blocks('gtceu:nichrome_coil_block'))
+            // ".or" defines that the block can be replaced with the following predicates
                 .where('F', Predicates.blocks('gtceu:clean_machine_casing')
                     .or(Predicates.abilities(PartAbility.IMPORT_ITEMS))
                     .or(Predicates.abilities(PartAbility.EXPORT_ITEMS))
@@ -22,12 +29,16 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setExactLimit(1))
                     .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
                     .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setExactLimit(1)))
+            // direct call to GTMaterials.java, this allows frames to have anything inside; as pipes, wires, ducts, etc... without unforming
                 .where('H', Predicates.frames(GTMaterials.StainlessSteel))
                 .build()
         )
         .workableCasingRenderer(
+            // What will be rendered above IO, Maintenance, Parallel, energy hatches when the multi forms
             'gtceu:block/casings/solid/machine_casing_clean_stainless_steel',
+            // What texture will use the controller face
             'gtceu:block/multiblock/gcym/large_extruder', 
+            // Does someone knows what the hell this line does???????????
                 false);
 
     event.create('large_essence_burner', 'multiblock')
