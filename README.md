@@ -1,6 +1,5 @@
 So quick summary, since currently star technology lacks of these multiblocks, i decided to add them by myself
 
-# The creative processing behind this was quite funny...
 first, i wanted to add 3 tiers for the large mystical greenhouse, kinda like the fluid oil rig / large miners
 
 Here the Elite, Advanced and Basic "LMG"
@@ -9,7 +8,8 @@ Here the Elite, Advanced and Basic "LMG"
 But some problems with the elite one regarding how to call the tungsten steel robust casings have appeared
 <img width="1038" height="687" alt="image" src="https://github.com/user-attachments/assets/cec73d78-ec38-40df-a9c0-535828c64744" />
 
-my head kinda gave up trying to figure what the fuck was wrong with it, so i decided to merge them into 1 that can uses parallel hatches and has POC (tbc eventually)
+my head kinda gave up trying to figure what the fuck was wrong with it, so i decided to merge them into only one, probably at some point ill try this again and see what i did wrong last time 
+-# eventually...
 
 # Ingame Appereance
 <img width="465" height="467" alt="image" src="https://github.com/user-attachments/assets/8213ae25-c4c4-46a5-bc09-9469392b8a3f" />
