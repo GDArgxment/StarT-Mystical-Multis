@@ -1,3 +1,4 @@
+// Recipes will remain unchanged
 ServerEvents.recipes(event => {
     event.shaped(
         Item.of('gtceu:large_mystical_greenhouse'), 
